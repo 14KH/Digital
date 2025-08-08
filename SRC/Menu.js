@@ -1,5 +1,5 @@
-import React from 'react';
-import './Menu.css'; // ملف التنسيقات
+import React from "react";
+import "../src/Menu.css";
 
 export default function Menu() {
   return (
