@@ -1,5 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
 import App from "./App";
+import Menu from "../src/Menu"; // استدعاء القائمة من src
 
-render(<App />, document.querySelector("#app"));
+render(
+  <>
+    <Menu />
+    <App />
+  </>,
+  document.querySelector("#app")
+);
