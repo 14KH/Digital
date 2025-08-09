@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Menu from './Menu';
+import HamburgerMenu from './Menu';
 import './Menu.css';
+
 
 function App() {
   const [pages, setPages] = useState(['الرئيسية']);
