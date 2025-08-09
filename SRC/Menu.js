@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Menu.css';
 
 function HamburgerMenu({ onAdd }) {
   const [open, setOpen] = useState(false);
