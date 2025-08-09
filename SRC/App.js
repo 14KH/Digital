@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HamburgerMenu from './Menu';
+import HamburgerMenu from './HamburgerMenu';
 import './Menu.css';
 
 function App() {
