@@ -12,6 +12,10 @@ function App() {
 
   return (
     <div>
+    
+    <HamburgerMenu onAdd={handleAdd} />
+    
+
       <Menu onAdd={handleAdd} />
       <div style={{ marginTop: '20px', padding: '10px' }}>
         {pages.map((page, index) => (
