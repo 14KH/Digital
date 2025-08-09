@@ -48,3 +48,17 @@
 .hamburger-menu li button:hover {
   text-decoration: underline;
 }
+  margin-bottom: 10px;
+}
+
+.hamburger-menu li button {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hamburger-menu li button:hover {
+  text-decoration: underline;
+}
